@@ -9,4 +9,6 @@ int main(){
     cout << "Enter name : ";
     cin >> name;
     cout << "Hello "<< name << "\t"<< num << endl;
+    const float PI = 3.14;
+    cout << PI << endl;
 }
