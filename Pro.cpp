@@ -4,7 +4,10 @@ using namespace std;
 
 int main(){
     int i = 0;
-    while(i == 0){
+    do{
+        cout << "!!PRESS 1 TO EXIT!!" << endl;
+        cout << "Enter i : " ;
+        cin >> i; 
         string name;
         int num = 10;
         cout << "Enter name : ";
@@ -14,6 +17,6 @@ int main(){
         cout << PI << endl; 
         cout << "Bye bye!"<<endl;
         cout << "good night " << name << endl;
-        i++;
-    }  
+        cout << "-------------------------------"<< endl;
+    }while(i != 1);
 }
