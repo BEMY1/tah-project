@@ -8,7 +8,8 @@ int main(){
     int num = 10;
     cout << "Enter name : ";
     cin >> name;
-    cout << "Hello "<< name << "\t"<< num << endl;
+    cout << "Hello "<< name << " "<< num << endl;
     const float PI = 3.14;
     cout << PI << endl; 
+    cout << "Bye bye!"<<endl;
 }
